@@ -1,0 +1,464 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:#E4E2E2
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#8F8F8F
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#0000C6
+}
+
+.back-to-top {position: fixed; z-index: 1000; right: 20px; color:#0000C6;bottom: 90px; transform: rotate(-90deg)}
+
+body{
+margin: 0;
+font-family: Roboto,Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+font-size: 16px;
+color:#040404;
+background-color: #F4F3F3}
+
+.text-light {color: #FBF7F7;}
+.text-dark {color: #000000}
+.text-center{ text-align: center}
+.text-gray {color: #555; font-size: 18px}
+/*header{
+	padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	background: rgba(225,225,225,0.73);
+	z-index: 100
+}*/
+footer{padding: 10px 0; }
+main {min-height: 500px}
+
+
+.bg-header{background-color:#020202; width: 100%; padding: 10px }
+.bg-footer {background-color: #020202; }
+.logo {width:40px}
+
+nav .container
+{display: flex;
+align-items: center;
+justify-content: space-between}
+nav .menu ul{margin:0; padding: 0; list-style: none ; display: flex}
+nav .menu li{ margin: 0 24px; position: relative}
+nav .menu li a {color:white; text-decoration: none; display: inline-block}
+nav .menu li a:hover{color:#00169C; font-weight: 800}
+
+.img {width: 100%}
+
+.btn-primary{ 
+	background-color:#151313;
+	color:#fff;
+	padding: 10px 20px; 
+	text-decoration: none; 
+	text-transform: uppercase;
+    border-radius:5px;
+	border: none}
+.btn-primary:hover { background-color:#383838;color:#fff}
+
+.btn-secondary{ 
+	background-color:#FFFFFF;
+	color:#151313;
+	padding: 10px 20px; 
+	text-decoration: none; 
+	text-transform: uppercase;
+    border-radius:5px;
+	border: none}
+.btn-secondary:hover { background-color:#6A6666;color:#fff}
+
+.mt-10 {margin-top: 10px}
+.mt-20 {margin-top: 20px}
+.mt-15 {margin-top: 15px}
+.mt-30 {margin-top: 30px}
+.mt-50 {margin-top: 50px}
+.mt-60 {margin-top: 60px}
+.mt-70 {margin-top: 70px}
+.mt-100 {margin-top: 100px}
+
+.thanhngang{height: 10px;background-color: #C4C4C4;}
+.thanhngang-footer{background-color:#FFFFFF}
+.thanhdoc
+{width: 10px;
+	height:100px;
+	background-color: #C7C5C5;
+	float: left;
+	
+}
+.caption-thanhdoc
+   {display: flex;
+  
+align-items: center;
+	   justify-content: center;
+    padding: 0 30px;
+	color:#000000}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  text-align: center
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background: none;
+  margin: 0 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+	transition: all .2s;
+	border-bottom: 1px solid transparent
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  border-bottom: 1px solid red;
+	color: red
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: 1px solid red;
+	
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding-top: 24px
+}
+
+.hinh-anh{height: 350px; overflow:hidden}
+.hinh-anh img {height: 100%}
+
+#thang9 {margin: 0px; font-size: 20px}
+
+.item-thang9 p {font-size:12px;display:block}
+.item-thang9 h3{font-size: 20px}
+.item-thang9 a {text-decoration: none; color:#040404; align-items: center}
+.item-thang9 a:hover {color:#0000C6}
+.img-thang9{width: 100%; height: 300px;}
+
+.box1
+{background:url( "../image/Snapinsta.app_298519810_441890611216920_943895770848001089_n_1080.jpg");
+	background-size: cover;
+width: 100%; 
+height: 300px;
+	/*transition-property: all;
+	transition-duration: 2s;*/
+	transition: transform 2s 
+}
+.scale1:hover {transform: scale(1.5,2);
+background:url("../image/Harpers-Bazaar-Quang-Dai-trien-lam-How-are-you-these-days_07.jpg"); background-size: cover}
+
+.box2
+{background: url( "../image/Snapinsta.app_344569099_595347579214318_6301395899958034062_n_1080.jpg");
+background-size: cover;
+width: 100%; 
+height: 300px;
+/*transition-property: all;
+transition-duration: 2s;*/
+transition: transform 2s }
+
+.scale2:hover {transform: scale(1.5,2);
+background: url( "../image/Snapinsta.app_344563562_184792514455421_4175614417569663347_n_1080.jpg");
+background-size: cover}
+
+.box3
+{background: url("../image/366589555_292445060039326_6794969704975599936_n.jpg");
+background-size: cover;
+width: 100%; 
+height: 300px;
+/*transition-property: all;
+transition-duration: 2s;*/
+transition: transform 2s }
+
+.scale3:hover {transform: scale(1.5,2);
+background: url( "../image/366939627_295669359716896_8733432847379914458_n.jpg");
+background-size: cover}
+
+.box4
+{background: url("../image/Thiet-ke-chua-co-ten-16.png");
+background-size: cover;
+width: 100%; 
+height: 300px;
+/*transition-property: all;
+transition-duration: 2s;*/
+transition: transform 2s }
+
+.scale4:hover {transform: scale(1.5,2);
+background: url("../image/Avatar(47).jpg");
+background-size: cover}
+
+.box5
+{background: url("../image/366707558_1969860456708132_7219333556903271718_n.jpg");
+background-size: cover;
+width: 100%; 
+height: 300px;
+/*transition-property: all;
+transition-duration: 2s;*/
+transition: transform 2s }
+
+.scale5:hover {transform: scale(1.5,2);
+background: url("../image/366640767_1969860486708129_6786893488827897567_n.jpg");
+background-size: cover}
+
+.box6
+{background: url("../image/NDN_trien-lam-hoi-huong_6.webp");
+background-size: cover;
+width: 100%; 
+height: 300px;
+/*transition-property: all;
+transition-duration: 2s;*/
+transition: transform 2s }
+
+.scale6:hover {transform: scale(1.5,2);
+background: url("../image/image.webp");
+background-size: cover}
+
+
+.box-img{
+height: 700px; 
+background: url( "../image/Snapinsta.app_370971731_6614244435327482_8232793888831430036_n_1080.jpg");
+position: relative}
+
+.box-content {position: absolute;  bottom: 0; height: 200px; left: 3%}
+
+.bg-white {background: #BDBDBD}
+
+.footer-menu a
+{
+display: block;
+color: #fff;
+text-decoration: none;
+padding-bottom: 10px
+	
+}
+.footer-menu a:hover
+{color:#0000C6}
+
+footer h4
+ {padding-bottom: 20px}
+
+footer p 
+{font-size:16px}
+
+
+
+.box-animation {
+	width: 1000px; 
+	height: 600px;
+    margin: 0 auto;
+	position: relative;
+	background: #182873;
+	overflow: hidden
+}	
+.model
+{position: absolute;
+top: 180px;
+	right: 150px;
+	width: 230px;
+	/*animation: model 3s ;*/
+}
+
+.tranh 
+{position: absolute;
+width: 300px;
+	left: 100px;
+	top: 70px;
+	box-shadow: 6px 6px 3px #0c1a59;
+}
+
+.hoa10{
+	position: absolute;
+	width: 80px;
+	right: 50px;
+	top: 30px;
+	animation: hoa1 5s infinite linear
+}
+
+.hoa9{
+	position: absolute;
+	width: 150px;
+	right: 280px;
+	top: 30px;
+	animation: hoa1 5s infinite linear
+}
+
+
+.hoa8{
+	position: absolute;
+	width: 60px;
+	left: 50px;
+	top: 30px;
+	animation: hoa1 5s infinite linear
+}
+
+.hoa7{
+	position: absolute;
+	width: 100px;
+	left: 50px;
+	top: 100px;
+	animation: hoa 3s infinite linear
+}		
+	
+.hoa6{
+	position: absolute;
+	width: 90px;
+	left: 280px;
+	top: 180px;
+	animation: hoa 3s infinite linear
+}		
+	
+.hoa5{
+	position: absolute;
+	width: 60px;
+	right: 180px;
+	top: 180px;
+	animation: hoa 3s infinite linear
+}		
+
+.hoa4{
+	position: absolute;
+	width: 180px;
+	left: 250px;
+	top: 100px;
+	animation: hoa2 4s infinite linear
+}	
+
+.hoa3{
+	position: absolute;
+	width: 150px;
+	right: 420px;
+	top: 150px;
+	animation: hoa2 4s infinite linear
+}
+
+.hoa2{
+	position: absolute;
+	width: 100px;
+	right: 380px;
+	top: 10px;
+	animation: hoa 3s infinite linear
+	
+}
+
+@keyframes model
+{
+	from {transform: translateX(300px)}
+	to{ transform: translateX(0px)}
+}
+
+@keyframes hoa
+{
+	from {transform: translateY(-300px)}
+	to{ transform: translateY(700px)}
+}
+
+@keyframes hoa1
+{
+	from {transform: translateY(-300px)}
+	to{ transform: translateY(700px)}
+}
+
+@keyframes hoa2
+{
+	from {transform: translateY(-300px)}
+	to{ transform: translateY(700px)}
+}
+
+.box-tim
+{height: 400px;
+width: 800px
+}
+
+
+.box-aos
+{
+height: 200px;
+/*background: #F7C7C8;*/
+width: 1000px;
+}
+.img-aos {height: 200px; width: 1000px; 
+position: relative;
+
+}
+.content-aos {
+	position: absolute; 
+	bottom: 0; 
+	top: 50px;
+	right: 230px
+}
+
+.btn-tinhcum{ 
+	background-color:#0000C6;
+	color:#FFFFFF;
+	padding: 8px 15px; 
+	text-decoration: none; 
+	text-transform: uppercase;
+    border-radius:5px;
+	border: none;
+position: absolute;
+	
+}
+.btn-tinhcum:hover { background-color:#D40003;color:#fff}
+
+.icon1 {color:#FF0004; top: 20px; position: absolute; height: 500px; right: 15px}
+.box
+{width: 1000px;
+height: 300px;}
+
+.img-header
+{width: 100%;
+height: 200px}
+
+.tentrang{position: relative}
+.caption-head{position: absolute; top: 30%; color: #0000C6}
+
+aside section
+{
+	background-color: #E2E0E0;
+	padding: 30px 20px;
+	margin: 15px 0
+}
+
+aside #search form {display: flex}
+aside #search .tim {padding-left: 10px; border: 1px solid #C4C4C4; width: 80%}
+aside #search .btn-primary {padding: 8px 8px}
+
+aside #baidang p,
+aside #baidang h5
+{padding: 0; margin: 0}
+
+aside #baidang .col-4,
+aside #baidang .col-8{padding: 6px}
+
+aside #baidang row{ border-bottom: 1px dotted #ddd}
+
+.img-100{ width: 100%; height: auto}
+.img-aos {width: 100%; height: 300px}
+
+.item-blog p {font-size:16px;display:block}
+.item-blog h3{font-size: 25px}
+.item-blog a {text-decoration: none; color:#040404; align-items: center}
+.item-blog a:hover {color:#0000C6}
+
+
+.box-ka
+{height: 300px;
+
+background: red}
